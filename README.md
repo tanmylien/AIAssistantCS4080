@@ -52,13 +52,13 @@ Handles general, undefined inputs in a friendly, helpful way when no specific ca
 **Custom Data Types** <br/>
 Defined UserProfile, Request, and Response in models.py using @dataclass. <br/>
 **Validation / Type-Safety:** <br/>
-Validation logic is in the __post_init__ methods of the data classes to ensure correct data types and constraints.
-	•	**Enumeration:**
-CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY).
-	•	**Inheritance & Polymorphism:**
-AIAssistant is the base class in base_assistant.py.
-MusicAssistant, FitnessAssistant, and others override handleRequest() and greetUser() for customized responses.
-	•	**Dynamic Behavior & Object Simulation:**
-In main.py, multiple user profiles are created and handled dynamically using their command types to choose the appropriate assistant.
-	•	**Command Parsing (Bonus):**
-classify_command() in main.py uses string matching to simulate intent recognition.
+Validation logic is in the __post_init__ methods of the data classes to ensure correct data types and constraints. <br/>
+	•	**Enumeration:** <br/>
+CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY). <br/>
+	•	**Inheritance & Polymorphism:** <br/>
+AIAssistant is the base class in base_assistant.py. <br/>
+MusicAssistant, FitnessAssistant, and others override handleRequest() and greetUser() for customized responses. <br/>
+	•	**Dynamic Behavior & Object Simulation:** <br/>
+In main.py, multiple user profiles are created and handled dynamically using their command types to choose the appropriate assistant. <br/>
+	•	**Command Parsing (Bonus):** <br/>
+classify_command() in main.py uses string matching to simulate intent recognition. <br/>
