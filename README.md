@@ -73,7 +73,7 @@ classify_command() in main.py uses string matching to simulate intent recognitio
 **Inheritance & Polymorphism:** <br/>
 The program uses ***inheritance*** to create a modular structure where all assistant types inherit from a common base class:<br/>
 <br/>
-**AIAssistant** is the base class that defines shared behaviors and method templates such as greetUser(), handleRequest(request), and generateResponse(message)<br/>
+**AIAssistant** is the base class that defines shared behaviors and method templates such as **greetUser()**, **handleRequest(request)**, and **generateResponse(message)** <br/>
 <br/>
 Specialized assistants inherit from AIAssistant and override these methods with custom behavior:<br/>
 <br/>
