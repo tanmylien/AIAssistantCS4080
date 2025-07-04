@@ -13,9 +13,9 @@ Make sure Python is installed
 
 ### Step 2: Run the assistant
 In the source_code folder, launch the assistant with:
-
-**python main.py**
-
+```
+python main.py
+```
 ### Step 3: Interact with the assistant
 The program will prompt you for your name, age, and whether you’re a premium user.<br/>
 <br/>
