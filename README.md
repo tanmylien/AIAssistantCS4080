@@ -16,17 +16,17 @@ In the source_code folder, launch the assistant with:
 **python main.py**
 
 ### Step 3: Interact with the assistant
-The program will prompt you for your name, age, and whether you’re a premium user.
-Then you can type in requests like:
-	•	_"Play me something calm"_
-	•	_"I want to build muscle"_
-	•	_"Help me study for math"_
-	•	_"Recommend a good fantasy book"_
-	•	_"I'm feeling overwhelmed"_
+The program will prompt you for your name, age, and whether you’re a premium user.<br/>
+Then you can type in requests like:<br/>
+	•	_"Play me something calm"_<br/>
+	•	_"I want to build muscle"_<br/>
+	•	_"Help me study for math"_<br/>
+	•	_"Recommend a good fantasy book"_<br/>
+	•	_"I'm feeling overwhelmed"_<br/>
 
 **Free vs Premium Users**
-	•	Free users can interact with assistants, but are limited to 3 high-level requests per session.
-	•	Premium users have unlimited access.
+	•	Free users can interact with assistants, but are limited to 3 high-level requests per session.<br/>
+	•	Premium users have unlimited access.<br/>
 
 ## 🔍 Overview of the Assistant Functionality
 
