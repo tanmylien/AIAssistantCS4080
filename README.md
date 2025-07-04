@@ -77,13 +77,14 @@ The program uses ***inheritance*** to create a modular structure where all assis
 <br/>
 Specialized assistants inherit from AIAssistant and override these methods with custom behavior:<br/>
 <br/>
-	•	MusicAssistant → recommends playlists based on mood<br/>
-	•	FitnessAssistant → suggests workouts based on user goals<br/>
-	•	StudyAssistant → helps with study routines<br/>
-	•	BookAssistant → recommends books by genre or keywords<br/>
-	•	PsychologyAssistant → responds to emotional support requests<br/>
+	•	MusicAssistant: recommends playlists based on mood<br/>
+	•	FitnessAssistant: suggests workouts based on user goals<br/>
+	•	StudyAssistant: helps with study routines<br/>
+	•	BookAssistant: recommends books by genre or keywords<br/>
+	•	PsychologyAssistant: responds to emotional support requests<br/>
 <br/>
 **Polymorphism** shows up in the way the program picks the right assistant **while the program is running**, based on what the user says.
+<br/>
 <br/>
 	•	In **main.py**, we use the **classify_command()** function to figure out what kind of help the user wants, like music, books, fitness, or something else.<br/>
 	•	Once we know the type, the program creates the right kind of assistant (like MusicAssistant or BookAssistant), but it doesn’t need to treat them differently after that.<br/>
