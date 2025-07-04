@@ -69,10 +69,13 @@ In main.py, multiple user profiles are created and handled dynamically using the
 <br/>
 **Command Parsing (Bonus):** <br/>
 classify_command() in main.py uses string matching to simulate intent recognition. <br/>
+<br/>
 **Inheritance & Polymorphism:** <br/>
 The program uses ***inheritance*** to create a modular structure where all assistant types inherit from a common base class:
 **AIAssistant** is the base class that defines shared behaviors and method templates such as greetUser(), handleRequest(request), and generateResponse(message)<br/>
+<br/>
 Specialized assistants inherit from AIAssistant and override these methods with custom behavior:<br/>
+<br/>
 	•	MusicAssistant → recommends playlists based on mood<br/>
 	•	FitnessAssistant → suggests workouts based on user goals<br/>
 	•	StudyAssistant → helps with study routines<br/>
