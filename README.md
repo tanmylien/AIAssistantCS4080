@@ -17,6 +17,7 @@ In the source_code folder, launch the assistant with:
 
 ### Step 3: Interact with the assistant
 The program will prompt you for your name, age, and whether you’re a premium user.<br/>
+<br/>
 Then you can type in requests like:<br/>
 	•	_"Play me something calm"_<br/>
 	•	_"I want to build muscle"_<br/>
