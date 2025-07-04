@@ -4,10 +4,10 @@
 
 ### Step 1: Clone this repository
 Open your terminal and run:
-'''
-**git clone https://github.com/your-username/AIAssistantCS4080.git**<br/>
-**cd AIAssistantCS4080/source_code**
-'''
+```
+git clone https://github.com/your-username/AIAssistantCS4080.git<br/>
+cd AIAssistantCS4080/source_code
+```
 Make sure Python is installed
 
 ### Step 2: Run the assistant
