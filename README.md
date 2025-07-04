@@ -64,12 +64,19 @@ Validation logic is in the __post_init__ methods of the data classes to ensure c
 **Enumeration:** <br/>
 CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY). <br/>
 <br/>
-**Inheritance & Polymorphism:** <br/>
-AIAssistant is the base class in base_assistant.py. <br/>
-MusicAssistant, FitnessAssistant, StudyAssistant, PsychologyAssistant, BookAssistant, and others override handleRequest() and greetUser() for customized responses. <br/>
-<br/>
 **Dynamic Behavior & Object Simulation:** <br/>
 In main.py, multiple user profiles are created and handled dynamically using their command types to choose the appropriate assistant. <br/>
 <br/>
 **Command Parsing (Bonus):** <br/>
 classify_command() in main.py uses string matching to simulate intent recognition. <br/>
+**Inheritance & Polymorphism:** <br/>
+The program uses ***inheritance*** to create a modular structure where all assistant types inherit from a common base class:
+**AIAssistant** is the base class that defines shared behaviors and method templates such as greetUser(), handleRequest(request), and generateResponse(message)<br/>
+Specialized assistants inherit from AIAssistant and override these methods with custom behavior:<br/>
+	•	MusicAssistant → recommends playlists based on mood<br/>
+	•	FitnessAssistant → suggests workouts based on user goals<br/>
+	•	StudyAssistant → helps with study routines<br/>
+	•	BookAssistant → recommends books by genre or keywords<br/>
+	•	PsychologyAssistant → responds to emotional support requests<br/>
+
+
