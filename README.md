@@ -28,6 +28,7 @@ Then you can type in requests like:<br/>
 
 **Free vs Premium Users**<br/>
 	•	Free users can interact with assistants, but are limited to 3 high-level requests per session.<br/>
+ 
 	•	Premium users have unlimited access.<br/>
 
 ## 🔍 Overview of the Assistant Functionality
