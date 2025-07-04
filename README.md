@@ -5,7 +5,8 @@
 ### Step 1: Clone this repository
 Open your terminal and run:
 ```
-git clone https://github.com/your-username/AIAssistantCS4080.git<br/>
+git clone https://github.com/your-username/AIAssistantCS4080.git
+
 cd AIAssistantCS4080/source_code
 ```
 Make sure Python is installed
