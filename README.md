@@ -83,7 +83,7 @@ Specialized assistants inherit from AIAssistant and override these methods with 
 	•	BookAssistant: recommends books by genre or keywords<br/>
 	•	PsychologyAssistant: responds to emotional support requests<br/>
 <br/>
-**Polymorphism** shows up in the way the program picks the right assistant **while the program is running**, based on what the user says.
+***Polymorphism*** shows up in the way the program picks the right assistant **while the program is running**, based on what the user says.
 <br/>
 <br/>
 	•	In **main.py**, we use the **classify_command()** function to figure out what kind of help the user wants, like music, books, fitness, or something else.<br/>
