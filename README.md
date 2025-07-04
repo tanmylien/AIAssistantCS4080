@@ -49,20 +49,26 @@ Acts as a conversational AI psychologist. Listens to the user’s thoughts, offe
 <br/>
 📖 **Book Assistant (BOOK)** <br/>
 Recommends books using keywords in user descriptions and genre preferences. Also provides online links to read or purchase recommended books. <br/>
+<br/>
 💬 **General Assistant (GENERAL)**
 Handles general, undefined inputs in a friendly, helpful way when no specific category is matched. Ensures the conversation continues smoothly even with vague or ambiguous requests.
 
 ## Concepts Implemented <br/>
 **Custom Data Types** <br/>
 Defined UserProfile, Request, and Response in models.py using @dataclass. <br/>
+<br/>
 **Validation / Type-Safety:** <br/>
 Validation logic is in the __post_init__ methods of the data classes to ensure correct data types and constraints. <br/>
-	•	**Enumeration:** <br/>
+<br/>
+**Enumeration:** <br/>
 CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY). <br/>
-	•	**Inheritance & Polymorphism:** <br/>
+<br/>
+**Inheritance & Polymorphism:** <br/>
 AIAssistant is the base class in base_assistant.py. <br/>
 MusicAssistant, FitnessAssistant, and others override handleRequest() and greetUser() for customized responses. <br/>
-	•	**Dynamic Behavior & Object Simulation:** <br/>
+<br/>
+**Dynamic Behavior & Object Simulation:** <br/>
 In main.py, multiple user profiles are created and handled dynamically using their command types to choose the appropriate assistant. <br/>
-	•	**Command Parsing (Bonus):** <br/>
+<br/>
+**Command Parsing (Bonus):** <br/>
 classify_command() in main.py uses string matching to simulate intent recognition. <br/>
