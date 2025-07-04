@@ -72,6 +72,7 @@ classify_command() in main.py uses string matching to simulate intent recognitio
 <br/>
 **Inheritance & Polymorphism:** <br/>
 The program uses ***inheritance*** to create a modular structure where all assistant types inherit from a common base class:<br/>
+<br/>
 **AIAssistant** is the base class that defines shared behaviors and method templates such as greetUser(), handleRequest(request), and generateResponse(message)<br/>
 <br/>
 Specialized assistants inherit from AIAssistant and override these methods with custom behavior:<br/>
@@ -81,5 +82,10 @@ Specialized assistants inherit from AIAssistant and override these methods with 
 	•	StudyAssistant → helps with study routines<br/>
 	•	BookAssistant → recommends books by genre or keywords<br/>
 	•	PsychologyAssistant → responds to emotional support requests<br/>
-
+<br/>
+**Polymorphism** shows up in the way the program picks the right assistant **while the program is running**, based on what the user says.
+<br/>
+	•	In main.py, we use the classify_command() function to figure out what kind of help the user wants, like music, books, fitness, or something else.<br/>
+	•	Once we know the type, the program creates the right kind of assistant (like MusicAssistant or BookAssistant), but it doesn’t need to treat them differently after that.<br/>
+No matter which assistant is created, the program simply calls methods like greetUser() and handleRequest(request). Because each assistant has its own custom version of these methods, the right response is automatically used. 
 
