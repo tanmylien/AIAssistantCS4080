@@ -66,7 +66,7 @@ CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY). 
 <br/>
 **Inheritance & Polymorphism:** <br/>
 AIAssistant is the base class in base_assistant.py. <br/>
-MusicAssistant, FitnessAssistant, and others override handleRequest() and greetUser() for customized responses. <br/>
+MusicAssistant, FitnessAssistant, StudyAssistant, PsychologyAssistant, BookAssistant, and others override handleRequest() and greetUser() for customized responses. <br/>
 <br/>
 **Dynamic Behavior & Object Simulation:** <br/>
 In main.py, multiple user profiles are created and handled dynamically using their command types to choose the appropriate assistant. <br/>
