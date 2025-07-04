@@ -85,7 +85,8 @@ Specialized assistants inherit from AIAssistant and override these methods with 
 <br/>
 **Polymorphism** shows up in the way the program picks the right assistant **while the program is running**, based on what the user says.
 <br/>
-	•	In main.py, we use the classify_command() function to figure out what kind of help the user wants, like music, books, fitness, or something else.<br/>
+	•	In **main.py**, we use the **classify_command()** function to figure out what kind of help the user wants, like music, books, fitness, or something else.<br/>
 	•	Once we know the type, the program creates the right kind of assistant (like MusicAssistant or BookAssistant), but it doesn’t need to treat them differently after that.<br/>
+<br/>
 No matter which assistant is created, the program simply calls methods like greetUser() and handleRequest(request). Because each assistant has its own custom version of these methods, the right response is automatically used. 
 
